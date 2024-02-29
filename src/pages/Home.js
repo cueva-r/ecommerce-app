@@ -204,6 +204,20 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className='featured-wrapper p-5 home-wrapper-2'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <h3 className='section-heading'>Colección destacada</h3>
+                        </div>
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                    </div>
+                </div>
+            </section>
+
             <section className='marque-wrapper p-5'>
                 <div className='container-xxl'>
                     <div className='row'>
@@ -244,20 +258,6 @@ const Home = () => {
                                 </Marquee>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className='blog-wrapper p-5 home-wrapper-2'>
-                <div className='container-xxl'>
-                    <div className='row'>
-                        <div className='col-12'>
-                            <h3 className='section-heading'>Colección destacada</h3>
-                        </div>
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
                     </div>
                 </div>
             </section>
